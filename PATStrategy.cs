@@ -54,7 +54,7 @@ namespace NinjaTrader.NinjaScript.Strategies
 			}
 			else if (State == State.Configure)
 			{
-				AddDataSeries("ES 12-20", Data.BarsPeriodType.Tick, 2000, Data.MarketDataType.Last);
+				AddDataSeries("ES 12-20", Data.BarsPeriodType.Tick, 2000, Data.MarketDataType.Last); //indeed
 			}
 		}
 
