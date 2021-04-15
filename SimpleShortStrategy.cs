@@ -166,15 +166,15 @@ namespace NinjaTrader.NinjaScript.Strategies
 		public int Goal
 		{ get; set; }
 
-        [Range(0.0, double.MaxValue), NinjaScriptProperty]
-        [Display(ResourceType = typeof(Custom.Resource), Name = "Threshold", GroupName = "NinjaScriptStrategyParameters", Order = 2)]
-        public double Threshold
-        { get; set; }
+		[Range(0.0, double.MaxValue), NinjaScriptProperty]
+		[Display(ResourceType = typeof(Custom.Resource), Name = "Threshold", GroupName = "NinjaScriptStrategyParameters", Order = 2)]
+		public double Threshold
+		{ get; set; }
 
-        [Range(1, int.MaxValue), NinjaScriptProperty]
-        [Display(ResourceType = typeof(Custom.Resource), Name = "EMA slope range", GroupName = "NinjaScriptStrategyParameters", Order = 3)]
-        public int SlopeRange
-        { get; set; }
+		[Range(1, int.MaxValue), NinjaScriptProperty]
+		[Display(ResourceType = typeof(Custom.Resource), Name = "EMA slope range", GroupName = "NinjaScriptStrategyParameters", Order = 3)]
+		public int SlopeRange
+		{ get; set; }
 
 		[Range(1, int.MaxValue), NinjaScriptProperty]
 		[Display(ResourceType = typeof(Custom.Resource), Name = "EMA slope range2", GroupName = "NinjaScriptStrategyParameters", Order = 4)]
